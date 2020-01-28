@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://mccjs99g4lz03d6p5zpjr12s2b74.rest.marketingcloudapis.com/journeybuilder/execute",
+          "url": "https://sfmc-test-custom-activity.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "313830cd-62f1-4b26-afa8-30d6c280ab5b",
       "save": {
-        "url": "https://mccjs99g4lz03d6p5zpjr12s2b74.rest.marketingcloudapis.com/journeybuilder/save",
+        "url": "https://sfmc-test-custom-activity.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://mccjs99g4lz03d6p5zpjr12s2b74.rest.marketingcloudapis.com/journeybuilder/publish",
+        "url": "https://sfmc-test-custom-activity.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://mccjs99g4lz03d6p5zpjr12s2b74.rest.marketingcloudapis.com/journeybuilder/stop",
+        "url": "https://sfmc-test-custom-activity.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://mccjs99g4lz03d6p5zpjr12s2b74.rest.marketingcloudapis.com/journeybuilder/validate",
+        "url": "https://sfmc-test-custom-activity.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
